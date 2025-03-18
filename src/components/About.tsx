@@ -11,20 +11,26 @@ const About: React.FC = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in" style={{animationDelay: '0.2s'}}>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I'm a passionate Full Stack Developer with 5+ years of experience in building web applications.
-              My journey in tech started when I built my first website, and since then, I've been hooked on
-              creating digital experiences that make a difference.
+            Hi, I’m Bach Nguyen, a third-year Computer Science student at California State University, Long Beach 
+            with a passion for data analytics, machine learning, deep learning, and AI.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-300">
-              I specialize in JavaScript/TypeScript, React, Node.js, and modern web technologies. I'm always
-              learning and exploring new technologies to stay at the forefront of web development.
+            I enjoy extracting insights from data, building predictive models, and creating AI-driven solutions 
+            that improve decision-making. My journey into data science started with a curiosity for understanding 
+            patterns in data, which led me to work on projects involving machine learning, real-time data processing, 
+            and AI-powered tools.
             </p>
+            <p className="text-lg text-gray-700 dark:text-gray-300">
+            Currently, I’m developing ProMatch Analyzer, a machine learning-powered League of Legends match predictor 
+            that leverages Scikit-Learn, FastAPI, and Redis caching for efficient predictions. I’m also exploring 
+            deep learning frameworks like TensorFlow and PyTorch to expand my expertise in AI. 
+            </p> 
           </div>
           
           <div className="relative animate-fade-in" style={{animationDelay: '0.4s'}}>
             <img
-              src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c"
-              alt="Professional headshot"
+              src="https://assets.pokemon.com/assets/cms2/img/pokedex/full//258.png"
+              alt="Mudkip"
               className="rounded-lg shadow-xl w-5/6 mx-auto"
             />
           </div>
