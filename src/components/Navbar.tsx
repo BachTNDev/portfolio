@@ -84,7 +84,7 @@ const Navbar: React.FC<NavbarProps> = ({
               onClick={(e) => handleNavClick(e, 'hero')}
               className="text-2xl font-bold text-gray-900 dark:text-white"
             >
-              Personal Site
+              Bach Nguyen Portfolio
             </a>
           </div>
           

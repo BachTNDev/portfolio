@@ -105,7 +105,7 @@ function App() {
         const element = document.getElementById(sectionId);
         if (element) {
           window.scrollTo({
-            top: element.offsetTop - 80,
+            top: element.offsetTop - 64,
             behavior: 'smooth'
           });
           setActiveSection(sectionId);
@@ -120,7 +120,7 @@ function App() {
       const element = document.getElementById(sectionId);
       if (element) {
         window.scrollTo({
-          top: element.offsetTop - 80,
+          top: element.offsetTop - 64,
           behavior: 'smooth'
         });
         setActiveSection(sectionId);
